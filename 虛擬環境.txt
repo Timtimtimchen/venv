@@ -1,0 +1,17 @@
+PS D:\bb> python -m venv venv
+PS D:\bb> venv\Scripts\activate
+(venv) PS D:\bb> pip install django
+Collecting django
+  Using cached Django-4.2.4-py3-none-any.whl (8.0 MB)
+Collecting asgiref<4,>=3.6.0
+  Using cached asgiref-3.7.2-py3-none-any.whl (24 kB)
+Collecting sqlparse>=0.3.1
+  Using cached sqlparse-0.4.4-py3-none-any.whl (41 kB)
+Collecting tzdata
+  Using cached tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, django
+Successfully installed asgiref-3.7.2 django-4.2.4 sqlparse-0.4.4 tzdata-2023.3
+
+[notice] A new release of pip available: 22.3 -> 23.2.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+(venv) PS D:\bb> django-admin.exe startproject bb
